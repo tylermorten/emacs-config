@@ -19,8 +19,8 @@
 ;; For example, if you download yaml-mode.el to ~/.emacs.d/vendor,
 ;; then you can add the following code to this file:
 ;;
-;; (require 'yaml-mode)
-;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+;(require 'yaml-mode)
+;(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 ;; 
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
@@ -50,3 +50,5 @@
 
 ;; Save here instead of littering current directory with emacs backup files
 (setq backup-directory-alist `(("." . "~/.saves")))
+
+(global-company-mode)
