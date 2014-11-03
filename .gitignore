@@ -3,3 +3,9 @@
 *-history
 .smex-items
 places
+# Compiled
+*.elc
+
+# Packaging
+.cask
+
