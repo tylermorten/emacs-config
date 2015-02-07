@@ -10,7 +10,7 @@
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
 
-(setq initial-frame-alist '((top . 0) (left . 0) (width . 100) (height . 60)))
+;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 100) (height . 60)))
 
 
 ;; Place downloaded elisp files in this directory. You'll then be able
@@ -34,8 +34,8 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;; Uncomment this to increase font size
-;; (set-face-attribute 'default nil :height 140)
-(load-theme 'tomorrow-night-bright t)
+(set-face-attribute 'default nil :height 110)
+(load-theme 'seti t)
 
 ;; Flyspell often slows down editing so it's turned off
 (remove-hook 'text-mode-hook 'turn-on-flyspell)
@@ -52,3 +52,8 @@
 (setq backup-directory-alist `(("." . "~/.saves")))
 
 (global-company-mode)
+
+(require 'powerline)
+(powerline-default-theme)
+
+(toggle-frame-fullscreen)
