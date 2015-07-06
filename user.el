@@ -53,10 +53,9 @@
 
 (global-company-mode)
 
-;;(require 'powerline)
-;;(powerline-default-theme)
+(require 'powerline)
+(powerline-default-theme)
 
-(toggle-frame-fullscreen)
 
 (load "term/xterm")
 
