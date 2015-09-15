@@ -35,7 +35,7 @@
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;; Uncomment this to increase font size
 (set-face-attribute 'default nil :height 135)
-(load-theme 'ample-flat t)
+(load-theme 'tomorrow-night-bright t)
 
 ;; Flyspell often slows down editing so it's turned off
 (remove-hook 'text-mode-hook 'turn-on-flyspell)
@@ -53,10 +53,10 @@
 
 (global-company-mode)
 
-;;(require 'powerline)
-;;(powerline-default-theme)
+(require 'powerline)
+(powerline-default-theme)
 
-(toggle-frame-fullscreen)
+;;(toggle-frame-fullscreen)
 
 (load "term/xterm")
 
@@ -72,3 +72,4 @@
   (defun track-mouse (e))
   (setq mouse-sel-mode t))
 
+(setq c-set-style "linux" c-basic-offset 4)
