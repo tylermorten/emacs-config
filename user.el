@@ -56,11 +56,6 @@
 (require 'powerline)
 (powerline-default-theme)
 
-<<<<<<< HEAD
-;;(toggle-frame-fullscreen)
-=======
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
-
 (load "term/xterm")
 
 (unless window-system

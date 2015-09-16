@@ -134,7 +134,6 @@
    [(1 1)
     nil "Poor-man's namespaces for elisp" single])
  (with-editor .
-<<<<<<< HEAD
    [(2 2 2)
     ((emacs
       (24 4))
@@ -142,13 +141,6 @@
       (1 4))
      (dash
       (2 11 0)))
-=======
-   [(2 1 0)
-    ((emacs
-      (24 4))
-     (dash
-      (2 10 0)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
     "Use the Emacsclient as $EDITOR" tar])
  (wisp-mode .
 	    [(0 2 1)
@@ -463,7 +455,7 @@
 	     [(12)
 	      nil "A theme loosely based on Tron: Legacy colors" single])
  (transmission .
-	       [(0 4 1)
+	       [(0 5)
 		((emacs
 		  (24 4))
 		 (let-alist
@@ -513,11 +505,7 @@
 	    [(2012 4 7)
 	     nil "replace a word with a synonym looked up in a web service." single])
  (theme-looper .
-<<<<<<< HEAD
 	       [(20150723 1104)
-=======
-	       [(0 0 20150613)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 		((cl-lib
 		  (0 5)))
 		"Loop thru the available color-themes" single])
@@ -1403,11 +1391,7 @@
 	   [(0 0 1)
 	    nil "get stuff from pinboard" single])
  (picpocket .
-<<<<<<< HEAD
 	    [(16)
-=======
-	    [(14)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	     nil "Image viewer" single])
  (pickup .
 	 [(0 0 3)
@@ -1598,17 +1582,9 @@
 	     [(0 0 8)
 	      nil "export html and meta data used by static blog like nikola from org file" tar])
  (org2jekyll .
-<<<<<<< HEAD
 	     [(0 1 8)
 	      ((dash-functional
 		(2 11 0))
-=======
-	     [(0 1 6)
-	      ((dash
-		(2 10 0))
-	       (dash-functional
-		(1 2 0))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	       (s
 		(1 9 0))
 	       (deferred
@@ -1622,11 +1598,7 @@
 	      (1 6 8)))
 	    "Blog from Org mode to wordpress" tar])
  (org-trello .
-<<<<<<< HEAD
 	     [(0 7 5)
-=======
-	     [(0 7 0)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	      ((request-deferred
 		(0 2 0))
 	       (deferred
@@ -1683,11 +1655,7 @@
 	       (6 1)))
 	     "basic support for magit links" single])
  (org-journal .
-<<<<<<< HEAD
 	      [(1 10 2)
-=======
-	      [(1 9 4)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	       nil "a simple org-mode based journaling mode" single])
  (org-gnome .
 	    [(0 1)
@@ -1847,11 +1815,7 @@
 	  [(20071215)
 	   nil "mode for Notation 3" single])
  (myterminal-controls .
-<<<<<<< HEAD
 		      [(20150427 347)
-=======
-		      [(0 0 20150427)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 		       ((emacs
 			 (24))
 			(cl-lib
@@ -2019,11 +1983,11 @@
 	      [(0 1)
 	       nil "Become an Emacs master" single])
  (marshal .
-	  [(0 4 1)
+	  [(0 5 1)
 	   ((eieio
 	     (1 4))
 	    (json
-	     (1 4)))
+	     (1 3)))
 	   "eieio extension for automatic (un)marshalling" single])
  (marmalade-upload .
 		   [(0 0 5)
@@ -2139,7 +2103,6 @@
 		       (1 0 0)))
 		     "simple keybindings for Magit" single])
  (magit-popup .
-<<<<<<< HEAD
 	      [(2 2 2)
 	       ((emacs
 		 (24 4))
@@ -2147,13 +2110,6 @@
 		 (1 4))
 		(dash
 		 (2 11 0)))
-=======
-	      [(2 1 0)
-	       ((emacs
-		 (24 4))
-		(dash
-		 (2 10 0)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	       "Define prefix-infix-suffix command combos" tar])
  (magit-gh-pulls .
 		 [(0 3)
@@ -2168,7 +2124,6 @@
 		     (1 2 0)))
 		   "completing-read over all files in Git" single])
  (magit .
-<<<<<<< HEAD
 	[(2 2 2)
 	 ((emacs
 	   (24 4))
@@ -2182,19 +2137,6 @@
 	   (2 2 2))
 	  (magit-popup
 	   (2 2 2)))
-=======
-	[(2 1 0)
-	 ((emacs
-	   (24 4))
-	  (dash
-	   (2 10 0))
-	  (with-editor
-	      (2 1 0))
-	  (git-commit
-	   (2 1 0))
-	  (magit-popup
-	   (2 1 0)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	 "A Git porcelain inside Emacs" tar])
  (mactag .
 	 [(0 0 1)
@@ -2924,18 +2866,6 @@
  (gitattributes-mode .
 		     [(1 2 0)
 		      nil "Major mode for editing .gitattributes files" single])
-<<<<<<< HEAD
-=======
- (transmission .
-	       [(0 4 1)
-		((emacs
-		  (24 4))
-		 (let-alist
-		  (1 0 3))
-		 (seq
-		  (1 5)))
-		"Interface to a Transmission session" single])
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
  (git-gutter-fringe .
 		    [(0 12)
 		     ((git-gutter
@@ -2956,7 +2886,6 @@
 	       (2 9 0)))
 	     "draft git commit messages" single])
  (git-commit .
-<<<<<<< HEAD
 	     [(2 2 2)
 	      ((emacs
 		(24 4))
@@ -2964,15 +2893,6 @@
 		(2 11 0))
 	       (with-editor
 		   (2 2 2)))
-=======
-	     [(2 1 0)
-	      ((emacs
-		(24 4))
-	       (dash
-		(2 10 0))
-	       (with-editor
-		   (2 1 0)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	      "Edit Git commit messages" single])
  (git-auto-commit-mode .
 		       [(4 4 0)
@@ -3945,21 +3865,13 @@
        [(2 11 0)
 	nil "A modern list library for Emacs" single])
  (dart-mode .
-<<<<<<< HEAD
 	    [(0 14)
-=======
-	    [(0 13)
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	     ((cl-lib
 	       (0 5))
 	      (dash
 	       (2 10 0))
 	      (flycheck
-<<<<<<< HEAD
 	       (0 23)))
-=======
-	       (0 24)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	     "Major mode for editing Dart files" single])
  (d-mode .
 	 [(2 0 4)
@@ -4279,15 +4191,10 @@
 	 [(0 1 0)
 	  nil "eldoc mode for clojure" single])
  (clj-refactor .
-<<<<<<< HEAD
 	       [(1 1 0)
 		((emacs
 		  (24 3))
 		 (s
-=======
-	       [(1 0 5)
-		((s
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 		  (1 8 0))
 		 (dash
 		  (2 4 0))
@@ -4604,7 +4511,6 @@
 		  (1 11 5)))
 		"Space align various Clojure forms" single])
  (alchemist .
-<<<<<<< HEAD
 	    [(1 5 0)
 	     ((elixir-mode
 	       (2 2 5))
@@ -4616,11 +4522,6 @@
 	       (0 8 0))
 	      (pkg-info
 	       (0 4)))
-=======
-	    [(1 1 0)
-	     ((emacs
-	       (24)))
->>>>>>> 26aceabac4bbfeaefc6272e4b632c656a1da1c31
 	     "Elixir tooling integration into Emacs" tar])
  (ahg .
       [(0 99)
@@ -4686,3 +4587,4 @@
  (abl-mode .
 	   [(0 9 0)
 	    nil "Python TDD minor mode" single]))
+
